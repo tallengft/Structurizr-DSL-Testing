@@ -1,4 +1,4 @@
-# Structurizr-DSL-Testing
+#C4 Builder Testing
 
 Using [C4Builder](https://adrianvlupu.github.io/C4-Builder/)
 
