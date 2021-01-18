@@ -1,0 +1,22 @@
+{
+	"projectName": "Structurizr-DSL-Testing",
+	"homepageName": "Overview",
+	"rootFolder": "src",
+	"distFolder": "docs",
+	"generateMD": true,
+	"generatePDF": false,
+	"generateCompleteMD": false,
+	"generateCompletePDF": false,
+	"generateWEB": false,
+	"includeNavigation": false,
+	"includeTableOfContents": true,
+	"plantumlVersion": "latest",
+	"includeBreadcrumbs": true,
+	"includeLinkToDiagram": true,
+	"diagramsOnTop": true,
+	"generateLocalImages": true,
+	"plantumlServerUrl": "https://www.plantuml.com/plantuml",
+	"diagramFormat": "png",
+	"charset": "UTF-8",
+	"hasRun": true
+}
