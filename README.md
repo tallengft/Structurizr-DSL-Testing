@@ -1,14 +1,10 @@
 # Structurizr-DSL-Testing
 
-## Notes
+Using [C4Builder](https://adrianvlupu.github.io/C4-Builder/)
 
 ```bash
-brew install structurizr-cli
-structurizr-cli export -f plantuml -w getting-started.dsl
-cat structurizr-SystemContext.puml | docker run --rm -i think/plantuml -tpng > test.png
-```
-
-```bash
+brew install graphviz
 npm i -g c4builder
-
+mkdir src
+c4builder
 ```
