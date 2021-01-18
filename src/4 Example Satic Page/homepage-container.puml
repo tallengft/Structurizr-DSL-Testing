@@ -1,0 +1,16 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+Person(publicUser, "User", "Internet user")
+Person(adminUser, "Admin User", "Site admin and editor")
+
+System_Boundary(c1, "Website") {
+    Container(website, "Website", "Firebase Hosting", "Hosted Website")
+    Container(storage, "FTP", "FTP", "Website Storage Website")
+}
+
+Rel(publicUser, website, "Views Website", "https")
+Rel(adminUser, storage, "Uploads new content on website", "ftp")
+Rel(website, storage, "Reads website source", "NFS")
+@enduml
